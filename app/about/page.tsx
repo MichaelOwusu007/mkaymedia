@@ -27,11 +27,11 @@ const values = [
 ];
 
 const milestones = [
-  { year: "2019", title: "Founded", description: "Kryptic Pixel Studio was born from a passion for creative design." },
-  { year: "2020", title: "First 100 Clients", description: "Reached our first milestone of serving 100+ happy customers." },
-  { year: "2021", title: "Printing Expansion", description: "Added full-scale custom printing services to our offerings." },
-  { year: "2022", title: "Team Growth", description: "Expanded our team with talented designers and print specialists." },
-  { year: "2023", title: "500+ Projects", description: "Celebrated completing over 500 successful design projects." },
+  { year: "2021", title: "Founded", description: "MkayMedia was born from a passion for creative design." },
+  { year: "2023", title: "First 50 Clients", description: "Reached our first milestone of serving 100+ happy customers." },
+  { year: "2024", title: "Printing Expansion", description: "Added full-scale custom printing services to our offerings." },
+  { year: "2025", title: "Team Growth", description: "Expanded our team with talented designers and print specialists." },
+  { year: "2026", title: "100+ Projects", description: "Celebrated completing over 500 successful design projects." },
 ];
 
 const About = () => {
@@ -62,8 +62,8 @@ const About = () => {
               Crafting <span className="text-gradient">Visual Stories</span> That Inspire
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              Kryptic Pixel Studio is a premier graphic design and printing company based in 
-              Accra, Ghana. We transform ideas into captivating visual experiences that 
+              MkayMedia is a premier creative Digital Agency and printing company based in 
+              Accra and CapeCoast, Ghana. We transform ideas into captivating visual experiences that 
               elevate brands and connect with audiences.
             </p>
           </div>
@@ -79,7 +79,7 @@ const About = () => {
               <Eye className="w-12 h-12 text-primary mb-6" />
               <h2 className="text-2xl font-heading font-bold mb-4">Our Vision</h2>
               <p className="text-muted-foreground leading-relaxed">
-                To be the leading creative design and printing studio in West Africa, 
+                To be the leading creative digital agency and printing studio in West Africa, 
                 recognized for innovative solutions, exceptional quality, and the ability 
                 to transform any vision into stunning visual reality that makes lasting 
                 impressions.
@@ -91,7 +91,7 @@ const About = () => {
               <Target className="w-12 h-12 text-primary mb-6" />
               <h2 className="text-2xl font-heading font-bold mb-4">Our Mission</h2>
               <p className="text-muted-foreground leading-relaxed">
-                To deliver exceptional graphic design and premium printing services that 
+                To deliver exceptional creative digital design and premium printing services that 
                 exceed client expectations. We combine creativity, technology, and dedication 
                 to help businesses, organizations, and individuals communicate their message 
                 effectively.
@@ -158,7 +158,7 @@ const About = () => {
               What <span className="text-gradient">Drives Us</span>
             </h2>
             <p className="text-muted-foreground text-lg">
-              Our values shape everything we do, from the smallest design detail 
+              Our values shape everything we do, from the smallest design and development detail 
               to the largest print production.
             </p>
           </div>

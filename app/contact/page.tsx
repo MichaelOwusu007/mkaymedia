@@ -24,17 +24,17 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Visit Us",
-    content: "123 Creative Street, Accra\nGreater Accra Region, Ghana",
+    content: "CapeCoast, UCC\nCentral Region, Ghana",
   },
   {
     icon: Phone,
     title: "Call Us",
-    content: "0596214271\n0209797033",
+    content: "0592515464\n0537239582",
   },
   {
     icon: Mail,
     title: "Email Us",
-    content: "kwamepiesie25@gmail.com",
+    content: "mkaymedia@gmail.com",
   },
   {
     icon: Clock,
@@ -57,8 +57,9 @@ const services = [
   "Banner & Signage",
   "Social Media Graphics",
   "Church Materials",
-  "Promotional Products",
-  "Other",
+  "Web & Mobile App Design",
+  "Cloud Engineering Solutions",
+
 ];
 
 const Contact = () => {
@@ -278,7 +279,7 @@ const Contact = () => {
                           type="email"
                           value={formData.email}
                           onChange={handleChange}
-                          placeholder="john@example.com"
+                          placeholder="mkaymedia@example.com"
                           required
                           className="bg-background rounded-xl h-12"
                         />
@@ -400,7 +401,7 @@ const Contact = () => {
           >
             <h2 className="text-2xl font-heading font-bold">Find Us</h2>
             <p className="text-muted-foreground mt-2">
-              Visit our studio in Accra, Ghana
+              Visit our studio in CapeCoast, Ghana
             </p>
           </motion.div>
           
@@ -420,14 +421,14 @@ const Contact = () => {
                   <MapPin size={40} className="text-primary-foreground" />
                 </div>
               </motion.div>
-              <h3 className="font-heading font-bold text-xl mb-2">Kryptic Pixel Studio</h3>
+              <h3 className="font-heading font-bold text-xl mb-2">MkayMedia</h3>
               <p className="text-muted-foreground mb-4">
-                123 Creative Street, Accra<br />
-                Greater Accra Region, Ghana
+                CapeCoast, UCC<br />
+                Central Region, Ghana
               </p>
               <Button variant="outline" className="rounded-full" asChild>
                 <a 
-                  href="https://maps.google.com/?q=Accra,Ghana" 
+                  href="https://maps.google.com/?q=CapeCoast,Ghana" 
                   target="_blank" 
                   rel="noopener noreferrer"
                 >
