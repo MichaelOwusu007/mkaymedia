@@ -2,6 +2,7 @@
 
 
 import Link from "next/link";
+import "./home.css";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Palette, Sparkles, Printer, Phone, Mail, MapPin, CheckCircle, Star } from "lucide-react";
 import { motion } from "framer-motion";
@@ -103,12 +104,12 @@ const Index = () => {
                             </motion.div>
                             
                             <motion.h1 
-                                className="text-4xl sm:text-5xl lg:text-6xl font-heading font-bold leading-tight mb-6 text-white"
+                                className="text-4xl  sm:text-4xl lg:text-5xl font-heading font-bold leading-tight mb-6 text-white"
                                 initial={{ opacity: 0, y: 20 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ delay: 0.3, duration: 0.6 }}
                             >
-                                Creative Design &{" "}
+                              <span className="hero-h1-gradient"> Creative Agency &{" "}</span>
                                 <span className="text-white/80">Printing</span>{" "}
                                 Solutions
                             </motion.h1>

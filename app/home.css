@@ -1,0 +1,27 @@
+.hero-h1-gradient{
+    animation: flow 2s ease-in-out infinite;
+
+    background: linear-gradient(-60deg, #e03704,#f8f407,#11d40a);
+
+    background-size: 300%;
+
+    background-clip: text;
+
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes flow {
+    0% {
+        background-position-x: 0;
+    }
+
+    50% {
+        background-position-x: -400px;
+    }
+
+    100% {
+        background-position-x: 0;
+    }
+}
